@@ -1,0 +1,88 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.backPreloader{
+    background-image: url('../img/backgrounds/forestsky_d15.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.hide{
+    display: none;
+}
+.logoPreloader{
+    width: 200px;
+}
+.animationPreloader{
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    position: relative;
+}
+.loader1,
+.loader2{
+    border: 2px solid transparent;
+    border-radius: 50%;
+    position: absolute;
+}
+.loader1{
+    width: 50px;
+    height: 50px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    animation: clock 2s linear infinite;
+}
+.loader2{
+    width: 40px;
+    height: 40px;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    top: 5px;
+    left: 5px;
+    animation: vsclock 2s linear infinite;
+}
+@keyframes clock{
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}@keyframes vsclock{
+    from {transform: rotate(0deg);}
+    to {transform: rotate(-360deg);}
+}
+
+/* homeslider */
+.navbar{
+    box-shadow: none;
+}
+.top-nav-collapse{
+    background-color: rgba(37, 76, 75, .7);
+}
+.backSlider{
+    background-image: url('../img/backgrounds/forestsky_50.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.logoSlider{
+    width: 420px;
+}
+.descriptionSlider{
+    font-size: 16px;
+    color: #fff;
+}
+/* exp */
+
+/* services */
+
+/* footer */
+.footerIcons{
+    color: #000;
+}
+.footerIcons:hover{
+    color: #000;
+}
+.footerIcons:active{
+    color: #000;
+}
+.footerIcons:visited{
+    color: #000;
+}
